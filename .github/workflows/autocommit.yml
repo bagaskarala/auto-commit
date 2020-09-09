@@ -1,7 +1,6 @@
 name: Auto commit
 
 on:
-
   push:
     branches:
       - master
@@ -25,7 +24,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "bagaskaraluthfi@gmail.com"
+          git config --local user.email "bgsbla33333@gmail.com"
           git config --local user.name "bagaskara"
           git add -A
           
